@@ -14,7 +14,10 @@ Then run `sh build_all_dockers.sh` to build all the relevant docker files.
 then do `docker-compose -f docker-compose-LocalExecutor.yml up`
 
 ## Run it on aws
+On a high level:
 You'll need to register on aws, create an EC2 machine in Ohio region with the following ami id. From security groups, open port 22 for ssh and 8080 for web ui
 
-You can also find this in an amazon AMI name: amu_docker_and_airflow
+amazon AMI name: amu_docker_and_airflow
 ami id: ami-4955632c
+
+For more detailed instructions, refer aws directory which has a readme and snapshots
